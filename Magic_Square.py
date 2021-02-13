@@ -50,5 +50,10 @@ def MagicSquare(n):
         for j in range(n):
             print(magic_square[i][j], end=" ")
         print()
-
     print("The sum of each row/column/diagonal: " + str(n * (n ** 2 + 1) / 2))
+
+
+
+x = int(input("Enter a number: "))
+MagicSquare(x)
+
